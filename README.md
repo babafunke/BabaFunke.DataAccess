@@ -6,8 +6,7 @@ BabaFunke.DataAccessDemo is an Asp.Net Core Web Api project to demonstrate the u
 BabaFunke.DataAccessDemoTest is a Unit Test project for the demo project above. It includes tests for the Product controller.
 
 # Getting Started
-1.	Installation process
-To simply install the NuGet package, navigate to [BabaFunke.DataAccess](https://www.nuget.org/packages/BabaFunke.DataAccess/). If you're using Visual Studio, open the NuGet Package Manager and search using the keyword Babafunke.DataAccess or run the command line Install-Package BabaFunke.DataAccess -Version 1.0.4 in the Package Manager Console.
+To install the NuGet package, navigate to [BabaFunke.DataAccess](https://www.nuget.org/packages/BabaFunke.DataAccess/). If you're using Visual Studio, open the NuGet Package Manager and search using the keyword Babafunke.DataAccess or run the command line Install-Package BabaFunke.DataAccess -Version 1.0.4 in the Package Manager Console.
 
 # Build and Test
 Clone this git repo to access the projects.
