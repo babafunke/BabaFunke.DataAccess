@@ -1,20 +1,16 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+BabaFunke.DataAccess is a NuGet Package that defines a generic repository framework for CRUD (Create, Read, Update, Delete) operations. It also includes an additional Archive feature for disabling an item instead of outright deletion. The package's sole purpose is to eliminate the need for repetitive definition of interfaces to handle basic CRUD operations. It was inspired by the need to save some time on my CRUD related client-server projects. See background info below for more.
+
+BabaFunke.DataAccessDemo is an Asp.Net Core Web Api project to demonstrate the use of the NuGet Package. It's a simple product management system for creating, updating, archiving, reading and deleting products for a fictitious creator.
+
+BabaFunke.DataAccessDemoTest is a Unit Test project for the demo project above. It includes tests for the Product controller.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+To simply install the NuGet package, navigate to [BabaFunke.DataAccess](https://www.nuget.org/packages/BabaFunke.DataAccess/). If you're using Visual Studio, open the NuGet Package Manager and search using the keyword Babafunke.DataAccess or run the command line Install-Package BabaFunke.DataAccess -Version 1.0.4 in the Package Manager Console.
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Clone this git repo to access the projects.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Background
+For more on the project's background, read my post [Creating more Daddy time with NuGet Packages](https://daddycreates.com/creating-more-daddy-time-with-nuget-packages-part-i/)
