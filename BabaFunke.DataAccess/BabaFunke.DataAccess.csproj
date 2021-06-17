@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.4</Version>
+    <Authors>Adebayo Adegbembo</Authors>
+    <Company>Wafunk Ltd.</Company>
+    <Copyright>Wafunk Ltd. 2021</Copyright>
+    <Description>A simple generic repository framework for CRUD (Create, Read, Update, Delete) operations. There's an added method for Archiving items. It eliminates the need for repetitive definition of interfaces to handle basic CRUD especially if you use a repository pattern.</Description>
+    <PackageTags>NuGet, CRUD, Database, Repository, Babafunke, Wafunk,</PackageTags>
+    <PackageProjectUrl>https://daddycreates.com/creating-more-daddy-time-with-nuget-packages-part-i/</PackageProjectUrl>
+    <PackageReleaseNotes>Fixed typo in Edit from EditCoupon to EditItem.
+Removed the reduncant dependecy Microsoft.EntityFrameworkCore as user may not need it if not using EF</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
