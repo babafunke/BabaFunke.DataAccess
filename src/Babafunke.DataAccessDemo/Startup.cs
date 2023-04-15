@@ -1,4 +1,5 @@
 using Babafunke.DataAccessDemo.Models;
+using Babafunke.DataAccessDemo.Repository;
 using Babafunke.DataAccessDemo.Services;
 using BabaFunke.DataAccess;
 using Microsoft.AspNetCore.Builder;
@@ -21,8 +22,9 @@ namespace Babafunke.DataAccessDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(); 
             services.AddScoped<IRepository<Product>, ProductService>();
+            services.AddScoped<IDataRepository, DataRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

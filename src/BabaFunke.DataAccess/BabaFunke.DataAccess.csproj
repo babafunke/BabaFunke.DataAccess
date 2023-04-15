@@ -1,17 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <Authors>Adebayo Adegbembo</Authors>
     <Company>Wafunk Ltd.</Company>
-    <Copyright>Wafunk Ltd. 2021</Copyright>
+    <Copyright>Wafunk Ltd. 2023</Copyright>
     <Description>A simple generic repository framework for CRUD (Create, Read, Update, Delete) operations. There's an added method for Archiving items. It eliminates the need for repetitive definition of interfaces to handle basic CRUD especially if you use a repository pattern.</Description>
     <PackageTags>NuGet, CRUD, Database, Repository, Babafunke, Wafunk,</PackageTags>
     <PackageProjectUrl>https://daddycreates.com/creating-more-daddy-time-with-nuget-packages-part-i/</PackageProjectUrl>
-    <PackageReleaseNotes>Fixed typo in Edit from EditCoupon to EditItem.
-Removed the reduncant dependecy Microsoft.EntityFrameworkCore as user may not need it if not using EF</PackageReleaseNotes>
+    <PackageReleaseNotes>Upgraded to Net6.0
+Refactored the demo project to use a flat json file</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/babafunke/BabaFunke.DataAccess</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

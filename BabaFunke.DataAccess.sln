@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BabaFunke.DataAccess", "BabaFunke.DataAccess\BabaFunke.DataAccess.csproj", "{EAEBA79B-044E-4AE2-8CC6-FBC0D68B238C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E95A44AF-0F37-46A0-A89C-345534E0394E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babafunke.DataAccessDemo", "Babafunke.DataAccessDemo\Babafunke.DataAccessDemo.csproj", "{61B5D720-AB28-477C-AA39-25558403DC93}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{957BF0CA-F64F-4E26-9340-E720341DA9A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabaFunke.DataAccessDemoTest", "BabaFunke.DataAccessDemoTest\BabaFunke.DataAccessDemoTest.csproj", "{004C0824-20DC-4918-8812-0924398BA603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BabaFunke.DataAccess", "src\BabaFunke.DataAccess\BabaFunke.DataAccess.csproj", "{23A97F40-A5ED-4D23-8019-23F8E3A019AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Babafunke.DataAccessDemo", "src\Babafunke.DataAccessDemo\Babafunke.DataAccessDemo.csproj", "{2D12D152-E9C5-41CB-B1F3-CD081458E851}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BabaFunke.DataAccessDemoTest", "test\BabaFunke.DataAccessDemoTest\BabaFunke.DataAccessDemoTest.csproj", "{E0BF51B4-C508-4494-A373-A3925ECC3C67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,21 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EAEBA79B-044E-4AE2-8CC6-FBC0D68B238C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAEBA79B-044E-4AE2-8CC6-FBC0D68B238C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAEBA79B-044E-4AE2-8CC6-FBC0D68B238C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAEBA79B-044E-4AE2-8CC6-FBC0D68B238C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61B5D720-AB28-477C-AA39-25558403DC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61B5D720-AB28-477C-AA39-25558403DC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61B5D720-AB28-477C-AA39-25558403DC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61B5D720-AB28-477C-AA39-25558403DC93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{004C0824-20DC-4918-8812-0924398BA603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{004C0824-20DC-4918-8812-0924398BA603}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{004C0824-20DC-4918-8812-0924398BA603}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{004C0824-20DC-4918-8812-0924398BA603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A97F40-A5ED-4D23-8019-23F8E3A019AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A97F40-A5ED-4D23-8019-23F8E3A019AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A97F40-A5ED-4D23-8019-23F8E3A019AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A97F40-A5ED-4D23-8019-23F8E3A019AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D12D152-E9C5-41CB-B1F3-CD081458E851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D12D152-E9C5-41CB-B1F3-CD081458E851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D12D152-E9C5-41CB-B1F3-CD081458E851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D12D152-E9C5-41CB-B1F3-CD081458E851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BF51B4-C508-4494-A373-A3925ECC3C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BF51B4-C508-4494-A373-A3925ECC3C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BF51B4-C508-4494-A373-A3925ECC3C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BF51B4-C508-4494-A373-A3925ECC3C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23A97F40-A5ED-4D23-8019-23F8E3A019AE} = {E95A44AF-0F37-46A0-A89C-345534E0394E}
+		{2D12D152-E9C5-41CB-B1F3-CD081458E851} = {E95A44AF-0F37-46A0-A89C-345534E0394E}
+		{E0BF51B4-C508-4494-A373-A3925ECC3C67} = {957BF0CA-F64F-4E26-9340-E720341DA9A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20510580-1263-4344-8823-51673E607026}
