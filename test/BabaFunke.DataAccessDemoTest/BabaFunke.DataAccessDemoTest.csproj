@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -15,7 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Babafunke.DataAccessDemo\Babafunke.DataAccessDemo.csproj" />
+    <ProjectReference Include="..\..\src\Babafunke.DataAccessDemo\Babafunke.DataAccessDemo.csproj" />
+    <ProjectReference Include="..\..\src\BabaFunke.DataAccess\BabaFunke.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
